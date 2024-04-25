@@ -2,6 +2,7 @@ from datapipelines import CompositeDataTransformer
 
 from .staticdata import StaticDataTransformer
 from .champion import ChampionTransformer
+from .account import AccountTransformer
 from .championmastery import ChampionMasteryTransformer
 from .summoner import SummonerTransformer
 from .match import MatchTransformer
